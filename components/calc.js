@@ -18,7 +18,7 @@ export default function Calc(props) {
 
   const selected = (value, key) => {
     if (value == defaultRows) {
-      return <option key={key} selected>{value}</option>
+      return <option key={key} defaultValue>{value}</option>
     } else {
       return <option key={key}>{value}</option>
     }
